@@ -23,6 +23,7 @@ script:
   - "go test ./client"
   - "go test ./lxc"
   - "go test ./shared"
+  - "cd test && ./main.sh"
 
 notifications:
   webhooks: https://linuxcontainers.org/webhook-lxcbot/
