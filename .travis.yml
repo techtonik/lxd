@@ -23,6 +23,7 @@ script:
   - "go test ./client"
   - "go test ./lxc"
   - "go test ./shared"
+  - "make"
   - "cd test && ./main.sh"
 
 notifications:
